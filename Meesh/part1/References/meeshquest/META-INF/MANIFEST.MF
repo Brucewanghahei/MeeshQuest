@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: cmsc420.meeshquest.part1.MeeshQuest
+Class-Path: .
+

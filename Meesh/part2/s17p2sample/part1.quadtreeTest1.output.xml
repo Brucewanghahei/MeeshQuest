@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<results>
+  <success>
+    <command name="createCity"/>
+    <parameters>
+      <name value="Paris"/>
+      <x value="2"/>
+      <y value="48"/>
+      <radius value="0"/>
+      <color value="black"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="mapCity"/>
+    <parameters>
+      <name value="Paris"/>
+    </parameters>
+    <output/>
+  </success>
+  <success>
+    <command name="printPRQuadtree"/>
+    <parameters/>
+    <output>
+      <quadtree>
+        <gray x="32" y="32">
+          <gray x="16" y="48">
+            <gray x="8" y="56">
+              <white/>
+              <white/>
+              <gray x="4" y="52">
+                <white/>
+                <white/>
+                <gray x="2" y="50">
+                  <white/>
+                  <white/>
+                  <white/>
+                  <gray x="3" y="49">
+                    <white/>
+                    <white/>
+                    <black name="Paris" x="2" y="48"/>
+                    <white/>
+                  </gray>
+                </gray>
+                <white/>
+              </gray>
+              <white/>
+            </gray>
+            <white/>
+            <white/>
+            <white/>
+          </gray>
+          <white/>
+          <white/>
+          <white/>
+        </gray>
+      </quadtree>
+    </output>
+  </success>
+</results>
